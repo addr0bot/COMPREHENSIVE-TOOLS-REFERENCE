@@ -10,7 +10,7 @@
 - self-hosted запуска и продуктовой сборки.
 
 Главный материал:
-- [_COMPREHENSIVE-TOOLS-REFERENCE.md](/Users/dub_m/Downloads/comphehe/repo/_COMPREHENSIVE-TOOLS-REFERENCE.md)
+- [_COMPREHENSIVE-TOOLS-REFERENCE.md](./_COMPREHENSIVE-TOOLS-REFERENCE.md)
 
 Что внутри:
 - 20 репозиториев, которые действительно стоит знать;
