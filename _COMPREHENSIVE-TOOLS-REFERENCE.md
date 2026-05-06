@@ -30,6 +30,7 @@
 - [Dify](https://github.com/langgenius/dify)
 - [OpenHands](https://github.com/OpenHands/OpenHands)
 - [Aider](https://github.com/Aider-AI/aider)
+- [OpenCode](https://github.com/anomalyco/opencode)
 - [Cline](https://github.com/cline/cline)
 - [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
 - [Langfuse](https://github.com/langfuse/langfuse)
@@ -38,7 +39,7 @@
 Это уже дает базовую карту: orchestration, coding agents, MCP, observability и evals.
 
 <a id="must-know"></a>
-## 20 Репозиториев, Которые Стоит Знать
+## Ключевые Репозитории, Которые Стоит Знать
 
 ### Базовые фреймворки
 
@@ -60,6 +61,7 @@
 
 - [OpenHands](https://github.com/OpenHands/OpenHands) - большая open-source платформа вокруг coding agents, полезна для изучения архитектуры и практики.
 - [Aider](https://github.com/Aider-AI/aider) - лучший быстрый вход в terminal-first coding workflow.
+- [OpenCode](https://github.com/anomalyco/opencode) - сильный open-source terminal coding agent с TUI, desktop app и repo-native паттернами.
 - [Cline](https://github.com/cline/cline) - сильный IDE agent с браузером, терминалом, diff review и MCP.
 - [Continue](https://github.com/continuedev/continue) - полезен не только как ассистент, но и как слой AI checks и CI automation рядом с репозиторием.
 
@@ -106,6 +108,7 @@
 
 Берите:
 - [Aider](https://github.com/Aider-AI/aider), если нужен терминал и быстрый результат
+- [OpenCode](https://github.com/anomalyco/opencode), если нужен terminal-first агент с нормальным TUI
 - [Cline](https://github.com/cline/cline), если нужен IDE workflow
 - [Continue](https://github.com/continuedev/continue), если хотите еще и policy/checks внутри репозитория
 - [OpenHands](https://github.com/OpenHands/OpenHands), если интересен более тяжелый agent stack
@@ -199,6 +202,13 @@
 - вы живете в git-репах и терминале;
 - не хотите лишний слой поверх привычного dev workflow.
 
+### [OpenCode](https://github.com/anomalyco/opencode)
+
+Смотреть, если:
+- нужен terminal-first агент, но хочется не только CLI, а еще и удобный TUI;
+- интересен open-source аналог современных coding-agent продуктов;
+- хочется посмотреть на `.opencode`, `AGENTS.md` и более repo-native подход.
+
 ### [Cline](https://github.com/cline/cline)
 
 Смотреть, если:
@@ -211,6 +221,13 @@
 Смотреть, если:
 - вам нужен не только copilot, но и правила на уровне репозитория;
 - интересно держать AI checks и review automation рядом с кодом.
+
+### Еще Четыре Репозитория Рядом С OpenCode
+
+- [OpenAI Codex](https://github.com/openai/codex) - легкий terminal coding agent от OpenAI; полезен, если хотите посмотреть на минималистичный локальный агентный workflow.
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli) - terminal agent от Google с built-in tools и MCP; удобен как прямой рабочий CLI.
+- [Qwen Code](https://github.com/QwenLM/qwen-code) - terminal-first агент с упором на open model ecosystem, skills и subagents.
+- [goose](https://github.com/aaif-goose/goose) - уже не только coding agent, а более общий локальный агент под код, ресерч и automation.
 
 <a id="agents-md-mcp"></a>
 ## AGENTS.md, Skills И MCP
@@ -334,6 +351,11 @@
 ## Источники
 
 Все ссылки в документе ведут на официальные репозитории или официальную документацию. Основу этой версии составляют:
+- [anomalyco/opencode](https://github.com/anomalyco/opencode)
+- [openai/codex](https://github.com/openai/codex)
+- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)
+- [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code)
+- [aaif-goose/goose](https://github.com/aaif-goose/goose)
 - [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph)
 - [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)
 - [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)
