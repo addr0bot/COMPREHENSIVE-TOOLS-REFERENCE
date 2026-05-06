@@ -1,30 +1,24 @@
 # Comprehensive Tools Reference
 
-Русскоязычная подборка сильных open-source инструментов и репозиториев для:
+Подборка полезных репозиториев и инструментов по темам:
 - AI agents;
 - coding agents;
-- `AGENTS.md`, `skills/`, MCP и tool use;
+- `AGENTS.md`, `skills`, MCP;
 - browser automation;
-- voice / realtime agents;
-- RAG, memory, evals и observability;
-- self-hosted запуска и продуктовой сборки.
+- voice / realtime;
+- memory, evals, observability;
+- self-hosted инфраструктура.
 
-Главный материал:
+Главный файл:
 - [_COMPREHENSIVE-TOOLS-REFERENCE.md](./_COMPREHENSIVE-TOOLS-REFERENCE.md)
 
 Что внутри:
-- 20 репозиториев, которые действительно стоит знать;
-- готовые подборки по сценариям: Telegram, coding agents, browser agents, internal AI assistants, voice;
-- разбор agent framework-ов, visual AI platforms и supporting infra;
-- отдельный блок про `AGENTS.md`, `skills/`, repo-local правила и MCP;
-- практические рекомендации, что брать на старте, а что не усложнять раньше времени.
+- 20 репозиториев, которые реально стоит знать;
+- подборки по задачам: backend, coding agents, browser automation, внутренние ассистенты, voice;
+- блок про `AGENTS.md`, `skills` и MCP;
+- базовый self-hosted стек;
+- короткий список критериев, по которым стоит фильтровать новые agent-репозитории.
 
-Кому полезно:
-- разработчикам;
-- командам, выбирающим стек;
-- авторам и преподавателям;
-- тем, кто хочет делиться с аудиторией одним сильным публичным файлом вместо хаотичного списка ссылок.
-
-Если делиться одной ссылкой, лучше делиться именно репозиторием: `README.md` работает как landing page, а полный материал лежит в основном файле.
+Если нужен один линк для шаринга, отправляйте репозиторий: `README.md` работает как входная точка, а основная подборка лежит в файле выше.
 
 Обновлено: `2026-05-06`
